@@ -67,4 +67,8 @@ jobs:
         run: |
           echo "Triggering cloud deployment to Render/Railway..."
           # To use this, add DEPLOY_HOOK_URL to your GitHub repository secrets
-          curl -X POST "${{ secrets.DEPLOY_HOOK_URL }}"
+          if [ -n "${{ secrets.DEPLOY_HOOK_URL }}" ]; then
+            curl -X POST "${{ secrets.DEPLOY_HOOK_URL }}"
+          else
+            echo "DEPLOY_HOOK_URL secret is not set. Skipping curl trigger."
+          fi
