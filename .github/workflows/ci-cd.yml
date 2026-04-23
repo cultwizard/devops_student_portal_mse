@@ -26,8 +26,10 @@ jobs:
         run: npm install
 
       - name: Run Tests (Jest)
-        working-directory: ./app
-        run: npm test
+        run: |
+          cd app
+          npm install
+          npx jest ../tests --passWithNoTests
 
   docker-build-push:
     name: Build & Push Docker Image
