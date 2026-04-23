@@ -43,9 +43,11 @@ app.get('/api/project', (req, res) => {
   });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`✅ Student Portal running on http://localhost:${PORT}`);
-});
+// Start server only when run directly (not when imported by tests)
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`✅ Student Portal running on http://localhost:${PORT}`);
+  });
+}
 
 module.exports = app; // exported for testing by Sachin
