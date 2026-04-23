@@ -1,6 +1,6 @@
 # 🎓 Automated CI/CD Pipeline for a Dockerized Student Portal
 
-![CI/CD Pipeline](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/YOUR_REPO/ci-cd.yml?label=CI%2FCD%20Pipeline&style=flat-square)
+![CI/CD Pipeline](https://img.shields.io/github/actions/workflow/status/cultwizard/devops_student_portal_mse/ci-cd.yml?label=CI%2FCD%20Pipeline&style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=flat-square&logo=docker)
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square&logo=node.js)
 
