@@ -37,10 +37,10 @@ GitHub Actions CI/CD Pipeline
 
 | Student | Role | Contribution |
 |---------|------|-------------|
-| Student 1 | Project Lead | Repo setup, App foundation, Docker & Docker Compose |
-| Student 2 | DevOps Engineer | GitHub Actions CI/CD Pipeline |
-| Student 3 | QA Engineer | Automated Testing (Jest + Supertest) |
-| Student 4 | Deployment Engineer | Cloud Deployment & Scripts |
+| Saatyak | Foundation & Dockerisation | Repo setup, App foundation, Docker & Docker Compose |
+| Ram | DevOps Engineer | GitHub Actions CI/CD Pipeline |
+| Sachin | QA Engineer | Automated Testing (Jest + Supertest) |
+| Pratik | Deployment Engineer | Cloud Deployment & Scripts |
 
 ---
 
