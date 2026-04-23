@@ -152,9 +152,24 @@ docker-compose down           # Stop
 
 ## 🌐 Live Deployment
 
-🔗 **Live URL**: `https://YOUR_APP.onrender.com` *(updated after deployment)*
+🔗 **Live URL**: https://devops-student-portal-mse.onrender.com/
+
+The application is successfully deployed on Render using Docker.
 
 ---
+
+## 🔁 Continuous Deployment Flow
+
+Every push to the `main` branch triggers:
+
+1. GitHub Actions CI/CD pipeline
+2. Installation of dependencies
+3. Automated testing (Jest + Supertest)
+4. Docker image build and push to Docker Hub
+5. Render automatically redeploys the latest version
+
+This ensures zero manual deployment effort.
+
 
 ## 📁 Project Structure
 
